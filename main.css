@@ -1,0 +1,99 @@
+body {
+    background: #FFFFFF;
+    font-size: 17pt;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  div {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  p {
+    color: rgb(0, 0, 0);
+    font-size: 25pt;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  ul {
+    list-style-type: none;  /* Removes the default bullet points */
+    padding: 70px 0px;             /* Removes default padding */
+    margin: 0 auto;         /* Centers the list horizontally with automatic margin */
+    text-align: center;     /* Centers inline or inline-block content */
+    width: 100%;            /* Ensures the list takes full width */
+}
+
+ul li {
+    display: inline-block;  /* Displays list items inline but as blocks for styling */
+    margin: 10px;           /* Adds space around each item */
+}
+
+ul li img {
+    display: block;         /* Changes display from inline (default for images) to block */
+    margin: auto;           /* Auto margin on block element centers it horizontally within the <li> */
+}
+
+ol {
+  list-style-type: none;  /* Removes the default bullet points */
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;  /* Adjust width as needed */
+}
+
+.artisttable {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;  /* Adjust width as needed */
+  padding-top: 50px;
+}
+
+
+th, td {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.trick {
+  text-align: center;  /* This will center the text and inline elements like <select> */
+  width: 100%;         /* Optional, but ensures the container takes full width */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.trick select {
+  display: inline-block; /* Ensures the select dropdown does not stretch full width */
+  margin-top: 20px;      /* Space above the select, adjust as needed */
+}
+
+#charli {
+  background-color: #8ACE00;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#chap {
+  background-color: #722F37;
+}
+
+body#charli .spotify {
+  padding: 20px 0;
+}
+
+body#chap .spotify {
+  padding: 20px 0;
+}
+
+#album:hover{
+  
+  border: 2px solid #000000;
+}
+
+#album2:hover{
+  border: 3px solid #722F37;
+}
+
+
+
+
